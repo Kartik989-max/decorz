@@ -1,0 +1,240 @@
+.decorz,
+.noidaOffice {
+  width: 30.06rem;
+  position: relative;
+  letter-spacing: 0.03em;
+  display: inline-block;
+  height: 3.27rem;
+  flex-shrink: 0;
+}
+.noidaOffice {
+  width: 15.75rem;
+  height: 1.48rem;
+}
+.frameChild {
+  width: 13.25rem;
+  position: relative;
+  border-top: 3px solid var(--color-black);
+  box-sizing: border-box;
+  height: 0.43rem;
+  opacity: 0.5;
+}
+.frame2 {
+  width: 15.75rem;
+  height: 2.34rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.noidaUttarPradesh {
+  margin: 0;
+}
+.gaurCity1Container {
+  width: 13.06rem;
+  position: relative;
+  font-size: var(--font-size-mini);
+  letter-spacing: 0.03em;
+  display: inline-block;
+  height: 4.44rem;
+  flex-shrink: 0;
+}
+.frameGroup {
+  width: 15.75rem;
+  height: 7.09rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.haryanaOffice {
+  width: 11.76rem;
+  position: relative;
+  letter-spacing: 0.03em;
+  display: inline-block;
+  height: 1.48rem;
+  flex-shrink: 0;
+}
+.frameItem {
+  width: 12.93rem;
+  position: relative;
+  border-top: 3px solid var(--color-black);
+  box-sizing: border-box;
+  height: 0.43rem;
+  opacity: 0.5;
+}
+.frame3 {
+  width: 12.74rem;
+  height: 2.34rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.unitNo16 {
+  width: 13.06rem;
+  position: relative;
+  font-size: var(--font-size-mini);
+  letter-spacing: 0.03em;
+  display: inline-block;
+  height: 5.31rem;
+  flex-shrink: 0;
+}
+.frameContainer {
+  width: 13.06rem;
+  height: 7.96rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-9xs);
+  margin-left: -1.44rem;
+}
+.frameParent {
+  width: 27.38rem;
+  height: 7.96rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-fauna-one);
+}
+.fotterMainTxtLeft,
+.frame1 {
+  width: 30.06rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.fotterMainTxtLeft {
+  height: 12.96rem;
+  align-items: flex-start;
+  gap: var(--gap-8xl);
+}
+.frame1 {
+  height: 13.85rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+}
+.getInTouch {
+  margin-block-start: 0;
+  margin-block-end: 4px;
+}
+.contactOurCreative {
+  margin: 0;
+  font-size: var(--font-size-mini);
+  line-height: 1.69rem;
+}
+.getInTouchContainer {
+  width: 34.56rem;
+  position: relative;
+  letter-spacing: 0.03em;
+  display: inline-block;
+  height: 11.85rem;
+  flex-shrink: 0;
+}
+.image10Icon,
+.image7Icon {
+  width: 2.16rem;
+  position: relative;
+  height: 2.26rem;
+  object-fit: cover;
+}
+.image10Icon {
+  height: 2.16rem;
+}
+.fotterMainTxtRight,
+.icon {
+  display: flex;
+  justify-content: flex-start;
+}
+.icon {
+  width: 15.36rem;
+  height: 2.38rem;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-lg);
+  margin-top: -0.69rem;
+}
+.fotterMainTxtRight {
+  width: 34.56rem;
+  height: 13.48rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frame,
+.frame4 {
+  height: 13.85rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+.frame4 {
+  width: 34.56rem;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-fauna-one);
+}
+.frame {
+  width: 70.38rem;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-73xl);
+}
+.fotterMain {
+  width: 32rem;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 1.69rem;
+  display: inline-block;
+  height: 2.41rem;
+  flex-shrink: 0;
+}
+.fotter,
+.fotterTxt,
+.frame5 {
+  display: flex;
+  flex-direction: column;
+}
+.frame5 {
+  width: 32.75rem;
+  overflow: hidden;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-fauna-one);
+}
+.fotter,
+.fotterTxt {
+  align-items: center;
+}
+.fotterTxt {
+  width: 70.38rem;
+  height: 25.05rem;
+  justify-content: flex-start;
+  gap: var(--gap-121xl);
+}
+.fotter {
+  position: absolute;
+  top: 423.13rem;
+  left: 0;
+  background-color: var(--color-gainsboro-200);
+  width: 90.38rem;
+  height: 29.06rem;
+  justify-content: flex-end;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+  font-family: var(--font-cinzel);
+}
