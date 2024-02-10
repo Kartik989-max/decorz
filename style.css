@@ -496,4 +496,10 @@ ul {
     min-width: 30rem !important;
     min-height: 60rem !important;
   }
+  .navbar-brand{
+    font-size: 1rem !important;
+  }
+  .nav-link{
+    font-size: 0.8rem;
+  }
 }
