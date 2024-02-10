@@ -23,7 +23,7 @@
       <a class="navbar-brand ms-2 me-4" style='font-family: "Cinzel", serif;
           font-optical-sizing: auto;
           font-weight: 560;
-          font-style: normal;' href="#">DECORZ</a>
+          font-style: normal; font-size: 1.5rem;' href="#">DECORZ</a>
       <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -39,38 +39,54 @@
           
         </ul>
       </div> -->
-
-      <ul class="nav justify-content-end m-1 p-1">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">BLOGS</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            SERVICES
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Interior</a></li>
-            <li><a class="dropdown-item" href="#">Architecture</a></li>
-          </ul>
-        </li>
-
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+  <ul class="nav justify-content-end m-1 p-1 me-2">
+    <li class="nav-item">
+      <a class="nav-link active" style='text-decoration: none; color: black; font-family: "Fauna One", serif;
+      font-weight: 400;
+      font-style: normal; letter-spacing: 0.2px;'  aria-current="page" href="#">HOME</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" style='text-decoration: none; color: black; font-family: "Fauna One", serif;
+      font-weight: 400;
+      font-style: normal; letter-spacing: 0.2px;'  href="./blog.html">BLOGS</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" style='text-decoration: none; color: black; font-family: "Fauna One", serif;
+      font-weight: 400;
+      font-style: normal; letter-spacing: 0.2px;'  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        SERVICES
+      </a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Interior</a></li>
+        <li><a class="dropdown-item" href="#">Architecture</a></li>
       </ul>
+    </li>
+
+  </ul>
+</div>
+
+     
     </div>
   </nav>
 
-  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselExampleAutoplaying" class="carousel slide hover-pause" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="./img/15evolve-harrison-341-1@2x.png" class="d-block w-100" alt="...">
+        <img src="./img/15evolve-harrison-341-1@2x.png" class="carousel_img_on_desktop d-block w-100" alt="...">
+        <img src="./img/_J7A6268.jpg" class="carousel_img_on_mobile d-none w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="./img/6evolve-harrison2-0074-11@2x.png" class="d-block w-100" alt="...">
+        <img src="./img/6evolve-harrison2-0074-11@2x.png" class="carousel_img_on_desktop d-block w-100" alt="...">
+        <img src="./img/_J7A6281.jpg" class="carousel_img_on_mobile d-none w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="./img/6evolve-harrison2-0074-1@2x.png" class="d-block w-100" alt="...">
+        <img src="./img/6evolve-harrison2-0074-1@2x.png" class="carousel_img_on_desktop d-block w-100" alt="...">
+        <img src="./img/_J7A6338.jpg" class="carousel_img_on_mobile d-none w-100" alt="...">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
@@ -85,7 +101,9 @@
     </button>
   </div>
 
-  <div class=" card m-5 text-center p-5" style="background-color: #E8E4E4;">
+
+
+  <div class="cardd card m-5 text-center p-5" style="background-color: #E8E4E4;">
     <div class="main2_txt m-15">
       <h1 style='font-family: "Cinzel", serif;
           font-optical-sizing: auto;
@@ -93,13 +111,13 @@
           font-style: bold;'>ALIVE STUDIO: BEST INTERIOR DESIGNING <br> FIRM IN GURGAON & DELHI NCR</h1>
       <p style='font-family: "Fauna One", serif;
           font-weight: 400;
-          font-style: normal; letter-spacing: 0.2px; font-size: 1.1rem;'>Alive Studio is a distinguished name in the
+          font-style: normal; letter-spacing: 0.2px; font-size: 1.1rem; opacity: 60%; margin-top: 1rem;'>Alive Studio is a distinguished name in the
         architectural and interior design <br> industry that has always worked with a customer-firstapproach. Our team
         of <br> designers symbolizescreativity and originality combined <br>
         with innovation and elegance. Alive Studio strives to customize each project <br> as per your visions and ideas
         and brings out your personality in the space <br> we design. It is in our culture to infuse artistry with
         expertise and deliver <br> only the very best.</p>
-      <button type="button" class="btn btn-outline-dark ps-3 pe-3">BOOK A CONSULTANT</button>
+      <button type="button" class="btn btn-dark p-3">BOOK A CONSULTANT</button>
     </div>
 
 
@@ -176,9 +194,9 @@
     </div>
     <div style="background-color: #E8E4E4;" ><p class="text-center m-5 p-5" style='font-family: "Fauna One", serif;
       font-weight: 400;
-      font-style: normal; letter-spacing: 0.2px; font-size: 1.1rem;'>With a background in art history and architecture, combined with an undying love for travel and culture, I’m able to take even a contemporary white box apartment in the middle of Manhattan and transform it into a richly layered jewel box.
-      What starts as a thought of grey turns into highly detailed palettes of color inspired by the space, the clients, and the future stories
-     When putting the design together, I take the inspiration I’ve seen from around the world, such as a rich blue plaster wall in Morocco </p></div>
+      font-style: normal; letter-spacing: 0.2px; font-size: 1.1rem;'>With a background in art history and architecture, <br> combined with an undying love for travel and culture, <br> I’m able to take even a contemporary white box apartment <br> in the middle of Manhattan and transform it into  a richly <br> layered jewel box.
+      What starts as a  thought of grey <br> turns into highly detailed palettes  of color inspired <br> by the space, the clients, and the future stories
+     <br> When putting the design together, I take the inspiration <br> I’ve seen from around the world, such as a rich <br> blue plaster wall in Morocco </p></div>
   </div>
 
 
@@ -229,7 +247,7 @@
 </div>
 
 
-<div class=" card m-5 text-center p-5 " style="background-color: #E8E4E4;">
+<div class="about card m-5 text-center p-5 " style="background-color: #E8E4E4;">
   <div class="main2_txt m-5 justify-content-center">
     <h1 style='font-family: "Cinzel", serif;
         font-optical-sizing: auto;
